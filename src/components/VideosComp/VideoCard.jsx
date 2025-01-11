@@ -4,7 +4,7 @@ import {FaArrowRight} from 'react-icons/fa6';
 const VideoCard = ({link, yt, title, desc, date, aosDelay}) => {
     return (
         <>
-            <div data-aos="fade-up" data-aos-delay={aosDelay} className='dark:text-white group'>
+            <div data-aos="fade-up" data-aos-delay={aosDelay} className='dark:text-dark_text text-primary group'>
                 <div className='overflow-hidden'>
                     <iframe src={link} width="560" height="315" title='YouTube Video Player' frameborder="0" className='mx-auto h-[420px] w-full object-cover group-hover:scale-105 duration-300' allowfullscreen muted></iframe>
                     <div className='space-y-2 p-4 ml-6 bg-slate-200 dark:bg-slate-950 -translate-y-10' onClick={() => window.open(yt, "_blank")}>

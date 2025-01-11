@@ -42,11 +42,11 @@ const servicesData = [
 const Services = () => {
     return (
         <>
-        <div className='bg-gray100 dark:bg-gray-900 dark:text-white py-12 sm:grid sm:place-items-center'>
+        <div className='bg-gray-100 dark:bg-dark2 text-black dark:text-white py-12 sm:grid sm:place-items-center'>
             <div className="container">
                 {/* HEADER SECTION */}
                 <div className='pb-12 text-center space-y-3' data-aos="fade-up">
-                    <h1 className='text-3xl font-semibold text-violet-900 dark:text-violet-600'>
+                    <h1 className='text-3xl font-semibold text-primary dark:text-primary'>
                     Explore Our Services
                     </h1>
                     <p data-aos="fade-up" data-aos-delay="300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, similique temporibus. Nobis, aspernatur. Qui, perferendis?</p>
@@ -57,7 +57,7 @@ const Services = () => {
                         <div key={service.id} data-aos="fade-up" data-aos-delay={service.aosDelay}  className='card space-y-3 sm:space-y-4 p-4'>
                             <div>{service.icon}</div>
                             <h1 className='text-lg font-semibold'>{service.name}</h1>
-                            <p className='text-gray-600 dark:text-gray-400'>{service.desc}</p>    
+                            <p className='text-gray-700 dark:text-gray-400'>{service.desc}</p>    
                         </div>
                     ))}
                 </div>

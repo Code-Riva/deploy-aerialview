@@ -32,14 +32,14 @@ const Navbar = () => {
 
     return (
     <>
-    <nav className="shadow-lg bg-white dark:bg-black dark:text-white duration-300">
+    <nav className="w-full fixed top-0 left-0 backdrop-blur-lg z-50 shadow-lg bg-white dark:bg-black dark:text-white duration-300">
         <div className="container py-3 md:py-2">
             <div className="flex justify-between">
                 {/* LOGO SECTION */}
-                <div>
+                <div className="flex items-center">
                     <a href="https://www.aerialview.co.id/" className="flex items-center gap-3">
-                        <img src={Logo} alt="Logo" className="w-5 scale-150" />
-                        <span className="text-2xl sm:text-3xl font-semibold">AerialView</span>
+                        <img src={Logo} alt="Logo" className="w-10 scale-150" />
+                        <span className="ml-2 text-2xl sm:text-3xl font-semibold hover:text-teal-500 hover:scale-105 duration-700">AerialView</span>
                     </a>
                 </div>
                 {/* DESKTOP NAVLINKS SECTION */}

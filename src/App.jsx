@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar.jsx';
 import Hero from './components/Hero/Hero.jsx';
 import Service from './components/Services/Services.jsx';
 import Products from './components/Products/Products.jsx';
+import Gallery from './components/Gallery/Gallery.jsx';
 import VideosComp from './components/VideosComp/VideosComp.jsx';
 import FAQ from './components/FAQ/FAQ.jsx';
 import Collab from './components/Collab/Collab.jsx';
@@ -33,6 +34,7 @@ const App = () => {
       <Hero />
       <Service />
       <Products />
+      <Gallery />
       <VideosComp /> 
       <FAQ />
       <Collab />

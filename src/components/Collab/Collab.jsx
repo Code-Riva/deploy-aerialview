@@ -4,7 +4,7 @@ import images from "../../assets/Collab/images";
 const Collab = () => {
   return (
     <>
-      <main className="bg-white dark:bg-gray-900 dark:text-white duration-300">
+      <main className="bg-gray-100 dark:bg-gray-900 dark:text-white duration-300">
         <div className="container py-10">
           <h1 className="text-center pb-6 text-2xl sm:text-3xl">In Collaboration with</h1>
           <div className="flex flex-wrap items-center justify-evenly gap-3 py-6 md:px-32">

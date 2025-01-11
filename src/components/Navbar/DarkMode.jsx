@@ -6,7 +6,6 @@ const DarkMode = () => {
     );
 
     const element = document.documentElement;
-
     useEffect(() => {
         localStorage.setItem("theme", theme)
         if (theme === "dark") {
@@ -18,8 +17,8 @@ const DarkMode = () => {
         }
     }, [theme]);     
     return <> { theme === "dark" ? (
-        <BiSolidSun onClick={() => setTheme("light")} className="text-2xl"/>) : (
-        <BiSolidMoon onClick={() => setTheme("dark")} className="text-2xl"/>) 
+        <BiSolidSun onClick={() => setTheme("light")} className="text-2xl cursor-pointer"/>) : (
+        <BiSolidMoon onClick={() => setTheme("dark")} className="text-2xl cursor-pointer"/>) 
     } </>;
 };
 

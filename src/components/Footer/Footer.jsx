@@ -107,7 +107,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                     {/* Thired Col */}
+                     {/* Third Col */}
                     <div>
                         <div className="py-8 px-4">
                             <h1 className="text-xl font-bold mb-3">Contact Us</h1>

@@ -21,7 +21,6 @@ const productsData = [
     }, {
         id: 2,
         name: "VTOL VTBIRD - AV" ,
-        performance:"a" , 
         performance:{
             duration: "~ 100 Minutes",
             distance: "~ 90 Km",
@@ -68,7 +67,7 @@ const Products = () => {
 
     return (
     <>
-    <div className="bg-gray-100 dark:bg-gray-950 dark:text-white duration-300 py-10">
+    <div className="bg-main dark:bg-dark1 text-primary dark:text-dark_text duration-300 py-10">
         <div className="container">
         {/*PRODUCTS SECTION */}
         <div className="grid grid-cols-1 max-w-screen-xl mx-auto gap-6 mb-10">
@@ -81,7 +80,7 @@ const Products = () => {
                             </div>
                             <div className='grid grid-cols-1 xl:grid-cols-2'>
                                 <div data-aos="fade-up" data-aos-delay="300" className="card space-y-3 sm:space-y-3 p-6 text-black dark:text-white">
-                                    <h1 className="mb-5 text-center font-bold text-primary text-xl">Flight Performance</h1>
+                                    <h1 className="mb-5 text-center font-bold text-primary dark:text-dark_text text-xl">Flight Performance</h1>
                                     <p className="">Flight Time     : {performance.duration}</p>
                                     <p className="">Travel Distance : {performance.distance}</p>
                                     <p className="">Mapping Speed   : {performance.speed}</p>
@@ -89,7 +88,7 @@ const Products = () => {
                                     <p className="">Wind Resistance : {performance.windResist}</p>
                                 </div>
                                 <div data-aos="fade-up" data-aos-delay="400" className="card space-y-3 sm:space-y-2 p-6 text-black dark:text-white">
-                                    <h1 className="mb-5 text-center font-bold text-primary text-xl">Hardware</h1>
+                                    <h1 className="mb-5 text-center font-bold text-primary dark:text-dark_text text-xl">Hardware</h1>
                                     <p className="">Payload Weight Max: {hardware.weightMax}</p>
                                     <p className="">Wingspan: {hardware.wingspan}</p>
                                     <p className=""><span className="font-semibold"> 24 MP Mapping Camera </span>, Automatic Camera Trigger, 2.4 Ghz Remote Control, Li-Ion Battery, Long Range Telemetry 433 Mhz and Travel Hard Case. </p>
@@ -102,7 +101,7 @@ const Products = () => {
         </div>
             {/*DESC SECTION */}
             <h1 data-aos="fade-up" data-aos-delay="500" className="text-2xl font-bold text-center py-5 text-primary">Specification</h1>
-            <div data-aos="fade-up"data-aos-delay="700" className="py-10 md:flex text-black-900 text-black/80 dark:text-white/80">
+            <div data-aos="fade-up"data-aos-delay="700" className="py-10 md:flex text-black-900 text-black dark:text-white">
                 <div className="basis-2/3 p-10">
                     <h1 className="text-center font-bold mb-3 sm:mb-2 text-xl">GNSS Device</h1>
                     <p className="font-semibold">OPTIONAL EQUIPMENT FOR PPK VERSION ONLY:</p>
